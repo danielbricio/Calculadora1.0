@@ -15,12 +15,15 @@
 }
 .fundo h1
 {
-    position: absolute;
-    top: 10%;
-    left: 43%;
+    padding-top: 20%;
     text-transform: uppercase;
     font-style: italic;
-    color: #fff;
+
+    background: linear-gradient(270deg, #ffffff, #999999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    
     font-size: 50px;
 }
 .calculadora{
