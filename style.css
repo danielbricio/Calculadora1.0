@@ -21,6 +21,7 @@
 
     background: linear-gradient(270deg, #ffffff, #999999);
     -webkit-background-clip: text;
+    background-clip: text; /*Adicionando Regra de Estilo Padrão além da versão do Fornecedor Webkit*/
     -webkit-text-fill-color: transparent;
 
     
@@ -67,11 +68,6 @@ color: #001c41;
 text-align: right;
 padding: 5px;
 
-}
-
-.fundo .bricio
-{
-    
 }
 
 .bricio
